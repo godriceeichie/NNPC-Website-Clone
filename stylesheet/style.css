@@ -557,7 +557,7 @@ nav{
     display: flex;
     max-height: 100%;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .news-contract-banner .news-contract-details{
@@ -746,10 +746,6 @@ nav{
         font-weight: 400;
         text-align: start;
     }
-    
-    .news-header>h1{
-        display: none;
-    }
 }
 
 @media screen and (max-width: 479px){
@@ -886,6 +882,15 @@ nav{
         font-weight: 700;
     }
 
+    .news{
+        height: 150vh;
+    }
+
+    .news-container{
+        height: 100%;
+    }
+    
+
     .news-content{
         display: flex;
         flex-direction: column;
@@ -928,6 +933,15 @@ nav{
     .news-content .news-grid .news-grid-item div p{
         text-decoration: underline solid blue;
     }
+
+    .news-contract-header h1{
+        display: none;
+    }
+    
+    .news-link{
+        align-self: center;
+    }
+
 }
 
 @media screen and (max-width: 375px){
