@@ -755,7 +755,7 @@ footer{
 }
 
 .second-footer-links{
-    height: 30%;
+    height: 100%;
     padding: 50px 30px;
     width: 40%;
     border-right: 1px solid hsla(0, 0%, 100%, 0.1);
@@ -774,10 +774,12 @@ footer{
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .third-footer-links{
-    height: 30%;
+    height: 100%;
     padding: 50px 30px;
     width: 30%;
 }
@@ -794,8 +796,14 @@ footer{
     line-height: 20px;
 }
 
-.third-footer-links ul li a{
-
+.third-footer-links ul li a i{
+    margin-right: 12px;
+    background-color: #03141b;
+    color: white;
+    font-size: 9px;
+    border-radius: 50%;
+    padding: .8em .9em;
+    border: 1px solid white;
 }
 
 @media screen and (min-width: 1440px){
