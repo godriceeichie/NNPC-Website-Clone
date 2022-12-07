@@ -706,6 +706,7 @@ footer{
     border: none;
     outline: none;
     background-color: #03141b;
+    color: white;
 }
 
 .email-sub div #footer-email::placeholder{
@@ -754,7 +755,7 @@ footer{
 }
 
 .second-footer-links{
-    height: 100%;
+    height: 30%;
     padding: 50px 30px;
     width: 40%;
     border-right: 1px solid hsla(0, 0%, 100%, 0.1);
@@ -774,6 +775,25 @@ footer{
     font-weight: 400;
     line-height: 20px;
 }
+
+.third-footer-links{
+    height: 30%;
+    padding: 50px 30px;
+    width: 30%;
+}
+
+.third-footer-links ul li{
+    margin-top: 20px;
+}
+
+.third-footer-links ul li a{
+    color: white;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
 @media screen and (min-width: 1440px){
     .purpose{
         /* height: 90vh;  */
@@ -1227,7 +1247,7 @@ footer{
     }
 
     footer{
-        height: 200vh;
+        height: 250vh;
     }
 
     .footer-holder{
@@ -1285,7 +1305,7 @@ footer{
         width: 100%;
     }
 
-    .second-footer-links{
+    .second-footer-links, .third-footer-links{
         height: 100%;
         padding: 0px 10px;
         width: 100%;
