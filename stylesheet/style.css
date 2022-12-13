@@ -191,7 +191,7 @@ nav{
 }
 
 .content-holder .contact-link{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .content-holder .contact-link .contact{
@@ -903,7 +903,7 @@ footer{
     }
 
     .content-holder{
-        padding-top: 12%;
+        padding-top: 30%;
     }
 
     .content-holder .main-header{
@@ -927,6 +927,10 @@ footer{
 
     .content-holder .contact-link .double-arrow{
         padding: .9em 1.345em;
+    }
+
+    .content-holder .slider-controls{
+        margin-top: 100px;
     }
 
     .purpose{
@@ -1119,6 +1123,7 @@ footer{
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+        
         /* gap: 10px; */
     }
 
@@ -1420,7 +1425,7 @@ footer{
     }
 
     .news{
-        height: 120vh;
+        height: 140vh;
     }
 }
 
@@ -1431,5 +1436,9 @@ footer{
 
     .slider-controls .slide-progress{
         width: 250px;
+    }
+
+    .news{
+        height: 120vh;
     }
 }
